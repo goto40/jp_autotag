@@ -1,5 +1,4 @@
 import eyed3
-import pprint
 
 def show_info(files):
     for file in files:

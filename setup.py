@@ -45,7 +45,7 @@ setup(
     license=LICENSE,
     url=URL,
     packages=mypackages,
-    install_requires=["exeD3"],
+    install_requires=["eyeD3"],
     keywords="mp3 tag",
     entry_points={
         'console_scripts': [

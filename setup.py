@@ -32,8 +32,6 @@ if sys.argv[-1].startswith('publish'):
         print("  git push --tags")
     sys.exit()
 
-mypackages = find_packages()
-print("packages = {}".format(mypackages))
 
 setup(
     name=NAME,
@@ -44,7 +42,7 @@ setup(
     maintainer=AUTHOR,
     license=LICENSE,
     url=URL,
-    packages=mypackages,
+    py_modules=["jp_autotag"],
     install_requires=["eyeD3"],
     keywords="mp3 tag",
     entry_points={

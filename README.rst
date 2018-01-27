@@ -18,7 +18,10 @@ Get help:
         $ jp_autotag --help
 
 
-Correct mp3 files:
+Correct mp3 files (preview):
 
         $ jp_autotag *.mp3
 
+Correct mp3 files:
+
+        $ jp_autotag -r *.mp3

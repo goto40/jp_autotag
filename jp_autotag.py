@@ -30,7 +30,7 @@ def autotag():
                         action='store_true', help='just shows the tag info (no change)')
     parser.add_argument('--adjust-title-format', dest='adjust_title_format', default=r'f"{tag.track_num[0]:02d}-{tag.title}"', type=str,
                         help='f-string to replace title, use tag object as source (see show_info)')
-    parser.add_argument('--replace-title', dest='replace_title', default=False,
+    parser.add_argument('-r','--replace-title', dest='replace_title', default=False,
                         action='store_true', help='replace name')
 
     args = parser.parse_args()

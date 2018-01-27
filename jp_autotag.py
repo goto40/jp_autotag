@@ -25,7 +25,7 @@ def adjust_titles(files, format, do_it):
 def autotag():
     import argparse
     cmd = r'"{:02d}-{}".format(tag.track_num[0],tag.title)'
-    parser = argparse.ArgumentParser(description='generate code for the custom idl model.')
+    parser = argparse.ArgumentParser(description='rename title tags in music files (use the -r option to actually rename; else you get a preview).')
     parser.add_argument('files', type=str, nargs='+')
     parser.add_argument('--show-info', dest='show_info', default=False,
                         action='store_true', help='just shows the tag info (no change)')

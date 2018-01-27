@@ -1,3 +1,4 @@
+from __future__ import print_function
 import eyed3
 
 def show_info(files):

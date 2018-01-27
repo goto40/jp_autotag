@@ -4,6 +4,11 @@ jp_autotag
 
 A simple program to set the title, such that our dump mp3 player sorts the titles correctly...
 
+Install
+------------
+
+        $ python3 -m pip install -e .
+
 
 Use the tool
 --------------------------

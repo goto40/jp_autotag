@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 NAME = 'jp_autotag'
 DESC = 'simple tag correction for dump players'
-VERSION = "0.0"
+VERSION = "0.1"
 AUTHOR = 'Pierre Bayerl'
 LICENSE = 'MIT'
 URL = 'https://github.com/goto40/jp_autotag'
@@ -45,6 +45,7 @@ setup(
     py_modules=["jp_autotag"],
     install_requires=["eyeD3"],
     keywords="mp3 tag",
+    python_requires='>=3.5',
     entry_points={
         'console_scripts': [
             'jp_autotag = jp_autotag:autotag'
